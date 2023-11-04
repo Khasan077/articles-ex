@@ -117,6 +117,117 @@ img{
 
     }
 
-    .hero-link-text {
-        
-    }
+   /* Leatest-video */
+
+.latest-videos {
+    width: 100%;
+    max-width: 600px;
+    padding: 54px;
+}
+.latest-videos-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-family: "Arial" sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.latest-videos-devider {
+    height: 1px;
+    border: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #999;
+}
+.latest-videos-list {
+    padding: 0;margin: 0;
+    list-style: none;
+    margin-bottom: 24px;
+}
+.latest-videos-item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.item-latest-videos {
+    display: flex;
+}
+.item-latest-videos-img {
+    width: 160px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: contain;
+}
+.item-latest-videos-info {
+    padding: 16px;
+}
+.item-latest-video-heading {
+    margin-top: 0;
+    font-family: "Arial" sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+
+.item-latest-video-links{
+    color: #222;
+    text-decoration: none;
+}
+.item-latest-video-links:hover{
+    color: #1E90FF;
+}
+.item-latest-video-meta {
+    display: flex;
+    align-items: center;
+    color: #888;
+    font-size: 14px;
+    line-height: normal;
+}
+.item-latest-videos-published-at {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.item-latest-videos-published-at::before{
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    background-image: url(/img/icon-clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: "";
+}
+.item-latest-videos-views{
+    display: flex;
+    align-items: center;
+}
+.item-latest-videos-views::before {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-image: url(/img/visibility_black_24dp\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: "";
+}
+
+.load-more-button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #1E90FF;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.load-more-button:hover{
+    background: rgba(30, 144, 255, 0.60);
+}
